@@ -33,6 +33,8 @@ jobs:
       - name: Run a multi-line script
         run: |
           python3 main.py
+          git config --global user.email "lylelove@foxmail.com"
+          git config --global user.name "kezhongjun"
           git add -A
           git commit -m 'test'
           git push origin main
