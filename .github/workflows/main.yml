@@ -34,5 +34,6 @@ jobs:
         run: |
           python3 main.py
           git add -A
+          git push origin main
           echo Add other actions to build,
           echo test, and deploy your project.
